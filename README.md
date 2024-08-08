@@ -1,18 +1,17 @@
-## Getting Started
+## BASH AUTO COMMAND LINE EXECUTE
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+I made this simple program so it can help me whenever I need to make a fresh linux install. I have a folder with a lot of bash commands I do in a fresh install.
 
-## Folder Structure
+For example: 
+`sudo apt update && sudo apt upgrade`
+`sudo apt install picom`
+`sudo apt install maim`
 
-The workspace contains two folders by default, where:
+...and so on.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## How to use it
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+After executing the program, it will prompt you for the path from where the file in located.
+For Linux users, usually the path will start with `/home/{YOUR_USERNAME_HERE}/` since `~` won't make a good substitute in this case.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Feel free to use this program as you want, as long as it's not for commercial purposes.
