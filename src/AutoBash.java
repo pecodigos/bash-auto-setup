@@ -1,5 +1,3 @@
-package application;
-
 import java.io.BufferedReader;
 import java.io.Console;
 import java.io.FileReader;
@@ -9,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class App {
+public class AutoBash {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
