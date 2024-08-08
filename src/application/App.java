@@ -25,6 +25,7 @@ public class App {
         String password = Arrays.toString(passwordArray);
 
         List<String> list = new ArrayList<>();
+        int iteration = 0;
 
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(filePath))) {
 
@@ -36,9 +37,10 @@ public class App {
             for (String command : list) {
                 new ProcessBuilder("bash", "-c", command).start();
 
-                if (command.startsWith("sudo")) {
+                if (command.startsWith("sudo") && iteration == 0) {
                     new ProcessBuilder("bash", "-c", password).start();
                     password = "";
+                    iteration++;
                 }
 
                 System.out.println("\n" + command + " command was executed.");
