@@ -1,6 +1,6 @@
 ## BASH AUTO COMMAND LINE EXECUTE
 
-I made this simple program so it can help me whenever I need to make a fresh linux install. I have a folder with a lot of bash commands I do in a fresh install.
+I made this simple program so it can help me whenever I need to make a fresh linux install. I have a file with a lot of bash commands I do in a fresh install.
 
 For example: 
 ```bash
