@@ -20,4 +20,4 @@ sudo apt install maim
 - Enter your sudo password if it's needed. You can also unblock your sudo using a sudo command outside of the program (for example, using `sudo apt update` and entering your password before executing the program).
 - If you did that or is not executing a sudo command, you can just press enter when it prompts you for the password. 
 
-Feel free to use this program as you want, following its **LICENSE** requirements.
+Feel free to use this program (almost) as you want.
