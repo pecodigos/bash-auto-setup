@@ -15,7 +15,7 @@ sudo apt install maim
 
 - Compile the code (`AutoBash.java` file) using `javac AutoBash.java` command inside **src** folder;
 - Execute `AutoBash.class` file using `java AutoBash` command (you need to omit `.class` extension);
-- After executing the program, it will prompt you for the path from where the file in located;
+- After executing the program, and you press '**1**', you will be prompted for the path from where the file is located;
 - For Linux users, usually the path will start with `/home/{YOUR_USERNAME_HERE}/` since `~` probably won't work in this case;
 - Enter your sudo password if it's needed. You can also unblock your sudo using a sudo command outside the program (for example, using `sudo apt update` and entering your password before executing the program).
 - If you did that or is not executing a sudo command, you can just press enter when it prompts you for the password.
